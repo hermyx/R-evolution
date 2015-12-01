@@ -1,0 +1,37 @@
+%this file is the IVM article analysis
+%a % comment anything after % until the end of the line
+%minimum references to begin our article
+\documentclass[18pt]{article}
+\let\myBib\thebibliography
+\let\endmyBib\endthebibliography
+\renewcommand\thebibliography[1]{\ifx\relax#1\relax\else\myBib{#1}\fi}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\usepackage{indentfirst}
+\usepackage{titlesec}
+\usepackage[utf8]{inputenc}
+\newcommand{\sectionbreak}{\clearpage}
+
+%presentation of the document
+\title{Manuel : As if the world wasn't ending}
+\author{Mikaïl \textsc{Demirdelen}\\ Olivir \textsc{Frischo}\\ Julien \textsc{Bouvet}}
+\date{14/11/2015}
+\setlength\parindent{50pt}
+\begin{document}
+
+\maketitle
+
+\input{intro.tex}
+\input{carte.tex}
+\input{especes.tex}
+\input{specif.tex}
+\input{combats.tex}
+\input{other.tex}
+
+
+\end{document}

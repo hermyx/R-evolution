@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="R_evolution.Metabolism">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAACAAQAAAAAAAAAhAAA=</HashCode>
+      <FileName>Metabolism.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Enum_food_source" />
+      <Property Name="Enum_nature_reduc" />
+      <Property Name="Enum_energy_source" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="R_evolution.Enum_electron_source">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enum_nature.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="R_evolution.Enum_energy_source">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enum_energy_source.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="R_evolution.Enum_food_source">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAEAA=</HashCode>
+      <FileName>Enum_Alim_System.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
