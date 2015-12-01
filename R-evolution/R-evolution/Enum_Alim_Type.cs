@@ -7,9 +7,8 @@ namespace R_evolution
 {
     public enum Enum_Alim_Type
     {
-        Plants,
-        Herbivorous,
-        Carnivorous1,
-        Carnivorous2,
+        Autotrophs = 0,
+        Herbivorous = 1,
+        Carnivorous1 = 2,
     }
 }

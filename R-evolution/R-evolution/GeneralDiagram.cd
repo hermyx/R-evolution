@@ -7,9 +7,13 @@
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAgAAEAAAAABgAgADUAAAAEAAAAAAAAARAAAAAAAABQ=</HashCode>
+      <HashCode>AAgAAEAAAAABgAgADUAAAAEAAAAAAAQARAAAgAAAABQ=</HashCode>
       <FileName>Species.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_alim_type" />
+      <Property Name="Metabolism" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="R_evolution.Tile">
     <Position X="7.5" Y="0.75" Width="1.5" />
@@ -31,14 +35,14 @@
       <Compartment Name="Properties" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAACAAQAAAAAAAAAhAAA=</HashCode>
+      <HashCode>AAAABAAAAQAAAAAAAAAAAAAAAAAAAABAAAAAAAAhAAA=</HashCode>
       <FileName>Metabolism.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="R_evolution.Enum_Alim_Type">
     <Position X="2.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAQAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAABAA=</HashCode>
       <FileName>Enum_Alim_Type.cs</FileName>
     </TypeIdentifier>
   </Enum>

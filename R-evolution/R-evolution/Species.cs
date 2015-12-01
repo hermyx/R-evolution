@@ -87,5 +87,27 @@ namespace R_evolution
             get;
             set;
         }
+
+        public Enum_Alim_Type _alim_type
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public Metabolism Metabolism
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
     }
 }
