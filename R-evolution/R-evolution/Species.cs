@@ -109,5 +109,16 @@ namespace R_evolution
             {
             }
         }
+
+        public Morpholgy Morpholgy
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
     }
 }

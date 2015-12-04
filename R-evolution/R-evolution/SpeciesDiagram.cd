@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="R_evolution.Species">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAABgAgADUAAAAEAAAAAIAQARAAAgAAAABQ=</HashCode>
+      <FileName>Species.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_alim_type" />
+      <Property Name="Metabolism" />
+      <Property Name="Morpholgy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="R_evolution.Metabolism">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAQAAAAAAAAAAAAAAAAAAAABAAAAAAAAhAAA=</HashCode>
+      <FileName>Metabolism.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="R_evolution.Morpholgy">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Morpholgy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="R_evolution.Enum_Alim_Type">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAABAA=</HashCode>
+      <FileName>Enum_Alim_Type.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

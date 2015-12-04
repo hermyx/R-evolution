@@ -45,18 +45,23 @@
     <Compile Include="CodeNotCorrectException.cs" />
     <Compile Include="Enum_Alim_System.cs" />
     <Compile Include="Enum_Alim_Type.cs" />
+    <Compile Include="Enum_attaque.cs" />
+    <Compile Include="Enum_breathing.cs" />
+    <Compile Include="Enum_com.cs" />
+    <Compile Include="Enum_defense.cs" />
     <Compile Include="Enum_energy_source.cs" />
+    <Compile Include="Enum_movement.cs" />
     <Compile Include="Enum_nature.cs" />
-    <Compile Include="Map.cs" />
     <Compile Include="Metabolism.cs" />
+    <Compile Include="Morpholgy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Species.cs" />
-    <Compile Include="Tile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="GeneralDiagram.cd" />
+    <None Include="MorphologyDiagram.cd" />
+    <None Include="SpeciesDiagram.cd" />
     <None Include="MetabolismDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

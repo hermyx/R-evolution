@@ -2,16 +2,55 @@
 Le joueur peut choisir une espèce qui appartient à un de ces règnes là : Animal, Végétal, Champignon ou Bactérien. Pour chacun des règnes, voici les différentes classes. Elles sont déterminées dynamiquement en fonction des stats.
 \begin{itemize}
 	\item Animal :\begin{itemize}
-				\item Insecte
-				\item Arachnide
-				\item Crabe
-				\item Poisson
-				\item Amphibien
-				\item Chélonien (tortues)
-				\item Crocodilien
-				\item Squamates (lézard/serpents)
-				\item Oiseau
-				\item Mammifère
+				\item Coléoptères (scarabés, lucioles, coccinelles, ...)
+				\item Diptères (mouches, moustiques)
+				\item Hymènoptères (abeilles, guêpes, fourmis)
+				\item Lépidoptères (mites, papillons)
+				\item Dictyoptères (blattes, termites, mantes)
+				\item Orthoptères (sauterelles, criquets, grillons)
+				\item Odonta (libellules)
+				
+				\item Mygalomorphes (mygales)
+				\item Aranaeoorphes (araignées "classiques")
+				\item Scorpiones (scorpions)
+				
+				\item Chéloniens (tortues)
+				\item Crocodiliens (crocodiles, alligators)
+				\item Serpentes (serpents)
+				\item Autarchoglossa (lézards)
+				\item Iguania (iguanes, chaméléons)
+				
+				\item Paléognathes (émeu, autruches)
+				\item Sphenisciformes (manchots)
+				\item Procellariiformes (oiseaux de mer)
+				\item Accipitriformes (rapaces diurnes)
+				\item Strigiformes (rapaces nocturnes)
+				\item Psittaciformes (perroquets, perruches, ...)
+				
+				\item Marsuipiaux (kangourous, ...)
+				\item Glires (rongeurs, lagomorphes)
+				\item Primates (singes, lorisiformes, lémuriformes)
+				\item Chiroptera (chauve-souris)
+				\item Perissodactyla (rhinos, chevaux, zèbres, ...)
+				\item Carnivora (félins, canins, ours, ...)
+				\item Cetacea (dauphin, orque, baleine, ...)
+				\item Ruminantia (cerfs, girafes, bovins)
+				
+				\item Lamniformes (requins)
+				\item Rajiformes (raies)
+				\item Anguiliformes (anguilles)
+				\item Syngnathiformes (hippocampes)
+				\item Perciformes (morue, dorade et autre poisson "commun")
+				\item Coelacanthiformes (coelacanthes)
+				\item Myctophiformes (poisson-lanternes)
+				\item Characiformes (piranhas)
+				
+				\item Astacidea (homards, écrevisses, langoustines)
+				\item Brachyura (crabes)
+				\item Euphausiacea (krill (ou plancton))
+				
+				\item Urodèles (salamandres, tritons)
+				\item Anoures (Grenouilles, crapauds)
 			\end{itemize}
 	\item Archaeplastida :\begin{itemize}
 				\item 
@@ -26,15 +65,18 @@ Le joueur peut choisir une espèce qui appartient à un de ces règnes là : Ani
 Une espèce se compose de ces attributs:
 \begin{itemize}
 	\item Energie : Energie de l'organisme. Celui-ci meurt s'il arrive à 0.
-	\item Taille : Taille de l'organisme (en cm ?).
 	\item Force : Force physique (musculaire) de l'espèce (en N).
-	\item Vitesse : Vitesse de sprint de l'espèce (en m/s). Si cette valeur est égale à 0, cela veut dire que l'espèce ne peut pas se déplacer.
+	\item Agilité : Souplesse et capacité de manipulation du corps. Joue sur l'esquive.
+	\item Vitesse : Vitesse maximale de sprint de l'espèce (en m/s). Si cette valeur est égale à 0, cela veut dire que l'espèce ne peut pas se déplacer.
+	\item Accélération : Capacité de pouvoir monter rapidement en vitesse ou pas (en m/s.s).
 	\item Résistance : Résistance physique.
 	\item Thermie : Résistance thermique (ectothermie/endotherme -- homéotherme/poïkilotherme).
 	\item Sens : Tableau contenant les sens de l'espèce.
 	\item Reproduction : Système de reproduction de l'espèce (spores, oeufs, mitose, etc).
 	\item Métabolisme.
-	\item Niveau trophique : régime alimentaire (insecte, plante, herbivore, carnivores, etc).
+	\item Morphologie.
+	\item Niveau trophique : niveau dans la chaîne alimentaire (rien, autotrophe, herbivore, carnivore).
+	\item Régime alimentaire : type de nourriture (bois, plante, insecte, viande fraîche, viande morte, ...).
 	\item Durée de vie : Fréquence de reproduction.
 	\item Moment de vie : Si l'espèce est diurne ou nocturne.
 	\item Rythme de vie : Toutes les espèces partiront du principe qu'elles suivent, de base, un rythme cicardien. C'est-à-dire, que leur durée d'activité est le jour, et qu'elles dorment la nuit, pour les espèces diurnes (inversement pour les nocturnes). Ce rythme peut-être modifié au cours du jeu.

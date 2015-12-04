@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="R_evolution.Morphology">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <AssociationLine Name="_enum_defense" Type="R_evolution.Enum_defense" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.812" Y="2.25" />
+        <Point X="5.812" Y="1.5" />
+        <Point X="3.75" Y="1.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAACAAAAAAAgAAABgCAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Morpholgy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_enum_defense" />
+      <Property Name="_enum_attaque" />
+      <Property Name="Enum_movement" />
+      <Property Name="Enum_breathing" />
+      <Property Name="Enum_com" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="R_evolution.Enum_attaque" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAQAAAAIAACAACAAAAACgEAAAACCAAAIAAAAAA=</HashCode>
+      <FileName>Enum_attaque.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="R_evolution.Enum_defense" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAIAAAAAAAAABBAAAAIAABAAAAABAAAAAAA=</HashCode>
+      <FileName>Enum_defense.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="R_evolution.Enum_movement" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enum_movement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="R_evolution.Enum_breathing" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enum_breathing.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="R_evolution.Enum_com" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAIAAAAAAAA=</HashCode>
+      <FileName>Enum_com.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
